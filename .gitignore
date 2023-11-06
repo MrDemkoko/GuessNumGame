@@ -1,0 +1,26 @@
+# Ignore compiled files
+*.class
+
+# Ignore build output directories
+/target/
+/bin/
+/out/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Ignore user-specific project files
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/inspectionProfiles
+.idea/caches
+
+# Ignore system-specific files
+.gradle/
+build/
+out/
