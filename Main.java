@@ -33,14 +33,15 @@ public class Main {
 
                         System.out.println("Great! Guess the number from 0 to " + rangeInput);
 
+                        int guessCount = 0;
                         for(;;) {
-
+                            guessCount++;
                             System.out.println("Enter your guess:");
                             if(scanner.hasNextInt()) {
 
                                 int userGuess = scanner.nextInt();
                                 if (userGuess == randomNumber) {
-                                    System.out.println("You have guessed the number! Congrats!");
+                                    System.out.println("You have guessed the number on attempt " + guessCount + "! Congrats!");
                                     break;
                                 } else {
                                     System.out.println("Wrong one( Try again");
